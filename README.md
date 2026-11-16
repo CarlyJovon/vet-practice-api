@@ -1,22 +1,48 @@
-# 🐾 Project: Complex API 1 - Veterinary Practice
+# 🐾 Dog Breed Check
 
-### Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice.
+Dog Breed Check is a web application that connects dog breed information with FDA animal adverse-event reports to help users research medications reported in association with different dog breeds.
 
-### How to submit your code for review:
+## Features
+Dog Breed Check brings together information from two public APIs to make veterinary medication research more accessible.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- **Breed Search**: Search for a dog breed by name and retrieve breed information
+- **Medication Lookup**: Search FDA animal adverse-event data using the selected breed
+- **Medication Report Counts**: Display the number of reports associated with each medication ingredient
 
-Example:
+## How It Works
+Dog Breed Check uses two APIs to retrieve and connect information:
+
+1. **Dog API**: The application first queries the Dog API to locate the requested breed. Once a matching breed is found, the application displays its name and description.
+
+2. **FDA Animal and Veterinary API**: The breed information is then used to initiate a second API request to the FDA's Animal and Veterinary Adverse Event database. The application searches reported animal adverse events and retrieves medication active ingredients associated with those reports.
+
+
+## Tech Stack & APIs 
+- HTML 
+- CSS
+- JavaScript
+- Dog API 
+- FDA OpenFDA API
+- Fetch API
+- JSON
+- **Dog API**
+- **FDA OpenFDA**
+
+## Getting Started
+**Installation**
+1. Clone the repository:
+```bash
+git clone https://github.com/CarlyJovon/vet-practice-api.git
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+
+2. Navigate to the project directory:
+```bash
+cd vet-practice-api
 ```
+3. Open the project using a local development server, such as VS Code Live Server
+4. Search for a dog breed to explore the results
+
+## Disclaimer
+Dog Breed Check is an informational research tool and is not a substitute for professional veterinary advice.
+
+FDA adverse-event reports do not establish that a medication caused a reported reaction. Always consult a licensed veterinarian before making medication or treatment decisions for your pet.
