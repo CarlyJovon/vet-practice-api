@@ -1,6 +1,10 @@
 # 🐾 Dog Breed Check
 
 Dog Breed Check is a web application that connects dog breed information with FDA animal adverse-event reports to help users research medications reported in association with different dog breeds.
+<img width="1981" height="470" alt="Screenshot 2026-11-23 at 5 08 34 PM" src="https://github.com/user-attachments/assets/4a65ae20-9296-4cad-ba30-ebbf1cc5d72e" />
+
+## Live Demo 
+[Check out the Dog Breed Check Tool!](https://vet-practice-api.onrender.com/)
 
 ## Features
 Dog Breed Check brings together information from two public APIs to make veterinary medication research more accessible.
